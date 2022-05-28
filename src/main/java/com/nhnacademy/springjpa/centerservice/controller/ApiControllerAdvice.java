@@ -1,6 +1,6 @@
-package com.nhnacademy.springjpa.centersevice.controller;
+package com.nhnacademy.springjpa.centerservice.controller;
 
-import com.nhnacademy.springjpa.centersevice.domain.ApiError;
+import com.nhnacademy.springjpa.centerservice.domain.ApiError;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

@@ -1,4 +1,4 @@
-package com.nhnacademy.springjpa.centersevice.domain;
+package com.nhnacademy.springjpa.centerservice.domain;
 
 import lombok.Data;
 

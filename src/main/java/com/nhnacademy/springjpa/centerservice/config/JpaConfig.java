@@ -1,6 +1,6 @@
-package com.nhnacademy.springjpa.centersevice.config;
+package com.nhnacademy.springjpa.centerservice.config;
 
-import com.nhnacademy.springjpa.centersevice.repository.RepositoryBase;
+import com.nhnacademy.springjpa.centerservice.repository.RepositoryBase;
 import java.util.Properties;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
@@ -21,7 +21,7 @@ public class JpaConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
         LocalContainerEntityManagerFactoryBean emf = new LocalContainerEntityManagerFactoryBean();
         emf.setDataSource(dataSource);
-        emf.setPackagesToScan("com.nhnacademy.springjpa.entity");
+        emf.setPackagesToScan("com.nhnacademy.springjpa.centerservice.entity");
         emf.setJpaVendorAdapter(jpaVendorAdapters());
         emf.setJpaProperties(jpaProperties());
 
