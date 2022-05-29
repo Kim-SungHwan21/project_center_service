@@ -1,7 +1,7 @@
-//package com.nhnacademy.springjpa.centersevice.repository;
-//
-//import com.nhnacademy.springjpa.centersevice.entity.CertificateIssue;
-//import org.springframework.data.jpa.repository.JpaRepository;
-//
-//public interface CertificateIssueRepository extends JpaRepository<CertificateIssue, Long> {
-//}
+package com.nhnacademy.springjpa.centerservice.repository;
+
+import com.nhnacademy.springjpa.centerservice.entity.CertificateIssue;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CertificateIssueRepository extends JpaRepository<CertificateIssue, Long> {
+}
