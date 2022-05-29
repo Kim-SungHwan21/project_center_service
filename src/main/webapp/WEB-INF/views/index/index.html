@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>주민센터서비스</title>
+</head>
+<body>
+<table method="post" action="/postPage">
+    <h1>주민센터서비스 페이지</h1>
+    <hr>
+    <a th:href="@{|/listPost/1|}">가족관계증명서</a>
+    <br>
+    <a th:href="@{|/registerPost|}">주민등록등본</a>
+    <br>
+    <a th:href="@{|/listPost/1|}">출생신고서</a>
+    <br>
+    <a th:href="@{|/registerPost|}">사망신고서</a>
+</table>
+<a th:href="@{|/index|}">NHN게시판웹사이트</a>
+</body>
+</html>
